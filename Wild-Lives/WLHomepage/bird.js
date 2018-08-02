@@ -3,7 +3,7 @@ var state = 0;
 function Nestling() {
   var hyper = "link";
   if (state == 0){
-    document.getElementById("questionHeader").innerHTML = 'If you cant find its nest, make a nest! The baby birds nest is probably damaged, and it needs a new nest so its can stay safe as it grows bigger. To learn how to build a new nest go to this<a href="https://www.wikihow.com/Help-a-Baby-Bird-That-Has-Fallen-Out-of-a-Nest#steps_2">link</a> ';
+    document.getElementById("questionHeader").innerHTML = 'If you cant find its nest, make a nest! The baby birds nest is probably damaged, and it needs a new nest so its can stay safe as it grows bigger. To learn how to build a new nest go to this<a href="https://www.wikihow.com/Help-a-Baby-Bird-That-Has-Fallen-Out-of-a-Nest#steps_2"> link</a> ';
     var x = document.getElementById("nestling");
     if (x.style.display == "none") {
         x.style.display = "block";
